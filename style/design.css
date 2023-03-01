@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "thaleahfat";
+    src: url("../fonts/thaleahfat-webfont.ttf") format("truetype");
+    font-weight: 400;
+}
+@media (max-width: 524px){
+.logo img {
+    width: 80vw;
+}}
+@media (max-width: 768px){
+    .logo img {
+        width: 60vw;
+    }
+}
+
+*{
+    box-sizing: inherit;
+    color:black;  
+}
+div{
+    display: block;
+}
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width: 100%;
+    color:black;
+    font-family:"thaleahfat", helvetica;
+    background:#fffcf1;
+}
+
+body {
+    overflow-x: hidden; 
+    font-size:16px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.container {
+    height: 100%;
+    position: relative;
+    min-width:320px;
+    z-index:2;
+}
+.parallax-wrapper{
+    overflow-y: hidden;
+    height: 90%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+a:active{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #fff;
+    text-decoration: none
+}
+a:link{
+    color: #fff;
+    text-decoration: none
+}
+.pages {
+    position:absolute;
+    z-index:5;
+    top:10px;
+    text-align:center;
+    width:100%;
+}
+a.pages-link{
+    display: inline-block;
+    margin: 20px 5px;
+}
+a.pages-link img{
+    width:3.541vw; 
+	fill:black;
+	position:relative;
+    max-width: 40px;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.logo img{
+    display: block;
+    margin: auto;
+    width: 42vw; 
+}
+a.button {
+    display: inline-block;
+    margin: auto;
+    padding: 13px 20px 12px;
+    background: #8fb996;
+    color: #111d13;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+    position: relative;
+    font-size: 1.8em;
+    margin-top: 2rem;
+    
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    scroll-behavior: smooth; 
+}
+
+a.button:hover {
+	top:-3px;
+	background:#709775;
+	cursor:pointer;
+	color:#111d13;
+}
+
+.content-section-heading h2 {
+    font-size: 65px;
+    color: black;
+    text-align: center;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.caption-content {
+    text-align: center;
+}
+.portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+}
+.project, .work-experience{
+    margin: 2rem auto;
+    padding: 1rem 5vw;
+    max-width: 1200px;
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.content-section-body {
+    margin: 2rem auto;
+    padding: 1rem 5vw;
+    max-width: 1200px;
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.project, .work-experience{
+    width: 50%; /*30%*/
+    margin-bottom: 3%;
+    min-width: 200px; 
+}
+.project h2, .work-experience h2{
+    margin: 1rem auto 0;
+    font-size: 2.3em;
+    text-align: center;
+}
+p {
+    font-size: 1.7em;
+    margin-bottom: 1rem;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+.project a, .project img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.bio a.button{
+    display: block;
+    width: auto;
+    margin: 1rem auto;
+}
+
+.work-experience a ,.work-experience img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
